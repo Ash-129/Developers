@@ -1,3 +1,15 @@
+:root {
+-bg: #0f1720;
+-panel: #111827;
+-mute: #9aa6b2;
+-accent: #06b6d4;
+-card: #0b1220;
+-success: #10b981;
+-danger: #ef4550;
+-radius: 10px;
+-gap: 14px;
+-pad: 14px;
+}
 *{
   box-sizing: border-box;
   margin: 0;
