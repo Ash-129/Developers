@@ -20,9 +20,9 @@ body{
  align-items:center;
   justify-content:space-between;
   padding: 16px 22px;
-  background: var();
+  background: var(-card);
   border-bottom: 1px solid rgba(255,255,255,0.3);
-  margin-bottom:var();
+  margin-bottom:var(-gap);
 }
 .logo{
   display: flex;
@@ -35,7 +35,7 @@ body{
 .logo-icon{
   width:32px;
   height:32px;
-  background: var();
+  background: var(-accent);
   border-radius: 8px;
   display:flex;
   align-items: center;
@@ -61,7 +61,7 @@ body{
   left: 15px;
   top: 50%;
   transform: translateY(-50%);
-  color:var(mute);
+  color:var(-mute);
 
 }
 .nav-actions{
@@ -75,11 +75,33 @@ body{
   padding:5px;
   border-radius: 50%;
   cursor: pointer;
-  color:var(mute);
+  color:var(-mute);
   font-size: 18px;
   position: relative;
   transition:all 0.2s;
 }
-.notification{
-  
+.notification-btn-hover{
+  background: rgba(255,255,255,0.05);
+  color:#e6eef3;  
+}
+.notification-badge{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width:8px;
+  height:8px;
+  background:var(-danger);
+  border-radius: 50%;
+}
+.user-avatar{
+  width:36px;
+  height:36px;
+  border-radius: 50%;
+  background: var(-accent);
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color:#022429;
+  font-weight: 600;
+  cursor: pointer;
 }
