@@ -56,3 +56,16 @@ body{
   color:inherit;
   font-size: 14px;
 }
+.serch-icon{
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color:var(mute);
+
+}
+.nav-actions{
+  display:flex;
+  align-items: center;
+  gap: 15px;
+}
